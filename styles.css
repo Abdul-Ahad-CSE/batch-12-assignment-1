@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -53,11 +59,17 @@ a {
   background-color: #4e47ff;
   color: #fff;
   font-size: 16px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #372fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
   font-family: "Inter", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
   color: #4e47ff;
 }
@@ -111,4 +123,148 @@ a {
   border-radius: 20px;
 }
 
-/* Second page done */
+/* second page done */
+
+.joined {
+  background-color: #ffffff;
+  padding: 64px;
+}
+
+.stat-container {
+  background-color: #edeefd;
+  border-radius: 20px;
+  padding: 40px 60px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.stat-heading {
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.stat-blocks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat-block {
+  min-width: 150px;
+}
+
+.stat-number {
+  font-family: "Inter", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: #6050e9;
+  margin: 0;
+}
+
+.stat-label {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* third page doen */
+
+.what {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.what h2 {
+  color: #252432;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 32px; /* 32px */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.stars img {
+  height: 20px;
+  width: auto;
+}
+
+.review-card h3 {
+  color: #111827;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+}
+
+.review-card p {
+  color: #4b5563;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 1.5rem 0;
+  flex-grow: 1;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.reviewer-info img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
+  background-color: #e5e7eb;
+}
+
+.reviewer-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-name {
+  color: #1f2937;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.review-date {
+  color: #6b7280;
+  font-size: 14px;
+}
+/* fourth page done */
+
