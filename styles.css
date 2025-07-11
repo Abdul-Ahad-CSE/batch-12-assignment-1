@@ -1,15 +1,17 @@
-
-
-body{
-    font-family: "Raleway", sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
-header{
-    min-height: 100vh;
-    background-image: url('assets/Hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+header {
+  min-height: 100vh;
+  background-image: url("assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
 }
 .raleway-r {
   font-family: "Raleway", sans-serif;
@@ -17,45 +19,96 @@ header{
   font-style: normal;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 150px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.banner-content{
-    display:flex;
-    flex-direction: column;
-    align-items: center; 
-    text-align: center;
-    padding-bottom: 10vh;
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+.banner-content h1 {
+  font-size: 65px;
+  font-weight: bold;
+  max-width: 800px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  color: #252432;
+  padding-top: 180px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: #4e47ff;
+  color: #fff;
+  font-size: 16px;
+}
 
-}
-.banner-content h1{
-    font-size: 65px;
-    font-weight: bold;
-    max-width: 800px;
-    line-height: 1.2;
-    margin-bottom: 25px;
-    color: #252432;
-    padding-top:180px;
-}
-.btn{
-    display: inline-block;
-    padding: 12px 36px;
-    border-radius: 10px;
-    font-weight: bold;
-    background-color: #4E47FF;
-    color: #fff; 
-    font-size: 16px;
+.logo {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4e47ff;
 }
 
-.logo{
-    font-family: "Inter", sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #4E47FF;
+/* first page done */
+
+.text-content {
+  max-width: 300px;
 }
+
+.text-content h2 {
+  font-size: 42px;
+  color: #252432;
+  margin: 0 0 16px 0;
+  font-weight: bold;
+}
+
+.text-content p {
+  font-size: 24px;
+  color: #718096;
+  line-height: 1.6;
+  margin: 0 0 24px 0;
+  font-weight: normal;
+}
+.action-section {
+  margin: 100px 0;
+}
+.action-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 60px 80px;
+  border-radius: 20px;
+  gap: 80px;
+}
+.image-placeholder {
+  width: 450px;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Second page done */
